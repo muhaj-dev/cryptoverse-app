@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
-import { Navbar, Exchanges, Homepage, CryptoDetails, Cryptocurrencies, News } from './components';
+import { Navbar,  Homepage, CryptoDetails, Cryptocurrencies, News } from './components';
 import './App.css'
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
           </Typography.Title>
           <Space>
             <Link to='/'>Home</Link>
-            <Link to='/exchanges'>Exchanges</Link>
+            <Link to='/cryptocurrencies'>Cryptocurrencies</Link>
             <Link to='/news'>News</Link>
           </Space>
         </div>

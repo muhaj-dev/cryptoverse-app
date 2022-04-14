@@ -39,6 +39,9 @@ const App = () => {
             <Link to='/cryptocurrencies'>Cryptocurrencies</Link>
             <Link to='/news'>News</Link>
           </Space>
+          <Typography.Title level={4} style={{ textAlign: "center", color: "white"}}>
+            Built by Muhaj
+          </Typography.Title>
         </div>
         </div>
 

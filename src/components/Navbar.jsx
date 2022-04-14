@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className='logo-container'>
             <Avatar src={icon} size='large' />
             <Typography.Title level={2} className="logo">
-                <Link to='/'>Cryptoverse</Link>
+                <Link to='/'>Crypto  Net</Link>
             </Typography.Title>
         </div>
         <Button className='menu-control-container' onClick={() => setActiveMenu(!activeMenu)}>
